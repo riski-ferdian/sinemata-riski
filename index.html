@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sinemata</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-[#14181C]">
+    <!-- Navbar -->
+    <nav class="bg-[#1C2127] py-5 px-8">
+      <!-- Link Brand -->
+      <div class="container flex items-center gap-27.5 max-w-[1300px] mx-auto">
+        <a href="#" class="text-3xl text-[#E4E7EB] font-bebas"> SINEMATA </a>
+
+        <!-- Navigations -->
+        <div class="text-[#9CA3AF] flex gap-6 font-inter">
+          <a href="#" class="hover:text-white">Home</a>
+          <a href="#" class="hover:text-white">Browse</a>
+          <a href="#" class="hover:text-white">Watchlist</a>
+          <a href="#" class="hover:text-white">My Reviews</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Section Trending Movies -->
+
+    <!-- Hero Section -->
+    <div
+      id="hero"
+      class="container relative max-w-[1300px] mx-auto mt-4 bg-linear-to-bl from-[#2A1810] to-[#0F1419] rounded-xl p-[50px]"
+    >
+  <div class=" rounded-xl">
+
+      <div class="content max-w-[40%] flex flex-col items-start">        
+        <!-- badge -->
+        <span
+          class="font-inter text-sm font-bold text-[#FF8000] bg-[#FF8000]/18 border border-[FF8000]/40 rounded-[3px] py-[5px] px-[10px]"
+          >FEATURED THIS WEEK</span
+        >
+        <!-- heading -->
+        <h1
+          class="font-bebas text-[60px] text-white max-w-[70%] leading-none my-4"
+        >
+          CHRONOS LETTERBOUND
+        </h1>
+        <!-- span -->
+        <div class="font-inter text-sm flex gap-x-3">
+          <span class="text-[#FBBF24]">★ 8.7</span>
+          <span class="text-[#9CA3AF]">2024 · 2h 18m · Sci-Fi · Drama</span>
+        </div>
+        <!-- paragraph -->
+        <p class="font-inter text-sm text-[#CBD5DB] my-5">
+          Seorang penjaga arsip menemukan surat-surat dari masa depan yang
+          ditulis untuknya — masing-masing meminta keputusan mustahil.
+        </p>
+        <!-- buttons -->
+        <div class="flex gap-x-3">
+          <button
+            class="py-3 px-7 bg-[#FF8000] text-[#14181C] font-inter font-bold rounded cursor-pointer hover:bg-[#FF7000]"
+          >
+            ▶ Lihat Detail
+          </button>
+          <button
+            class="py-3 px-7 bg-[#3A4049] text-white font-inter font-bold rounded cursor-pointer hover:bg-[#3A4049]"
+          >
+            + Watchlist
+          </button>
+        </div>
+      </div>
+
+      <div class="img">
+        <img src="./cards.png" alt="cards" / class="absolute top-[50px] right-[60px]">
+      </div>
+  </div>
+
+  <!-- trending -->
+<!-- Wrapper utama -->
+<div class="bg-[#121418] text-white font-sans min-h-screen py-8 pl-8 my-4 rounded-xl overflow-hidden">
+  <div class="max-w-7xl mx-auto">
+    
+    <!-- Header -->
+    <div class="flex justify-between items-center mb-6 pr-8">
+      <div class="flex items-center gap-2">
+        <div class="w-1 h-4 bg-orange-500"></div>
+        <h2 class="text-xl font-bold font-bebas tracking-widest uppercase">
+          Trending Now
+        </h2>
+      </div>
+      <a href="#" class="text-gray-400 text-sm flex items-center gap-1 hover:text-white transition">
+        Lihat semua →
+      </a>
+    </div>
+
+    <!-- Card Container -->
+    <div class="flex gap-4 overflow-x-auto -mr-8 pr-8 pb-4" style="scrollbar-width: none;">
+      
+      <!-- Card 1 -->
+      <div class="flex-none w-52 cursor-pointer group">
+        <div class="relative h-[300px] rounded-xl overflow-hidden flex flex-col justify-between p-4 bg-gradient-to-b from-purple-800 to-fuchsia-500 shadow-lg">
+          <div class="flex justify-between items-start z-10">
+            <span class="text-[10px] font-inter tracking-wider text-white/90 uppercase">Sci-Fi • Drama</span> 
+          </div>
+          <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <h3 class="text-xl font-bebas font-black leading-tight z-10 uppercase">Embersea<br />Vigil</h3>
+        </div>
+      </div>
+      
+
+      <!-- Card 2-->
+      <div class="flex-none w-52 cursor-pointer group">
+        <div class="relative h-[300px] rounded-xl overflow-hidden flex flex-col justify-between p-4 bg-gradient-to-b from-teal-700 to-emerald-400 shadow-lg">
+          <div class="flex justify-between items-start z-10">
+            <span class="text-[10px] font-inter font-bold tracking-wider text-white/90 uppercase">Sci-Fi • Drama</span> 
+          </div>
+          <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <h3 class="text-xl font-bebas font-black leading-tight z-10 uppercase">Riptide<br />Hours</h3>
+        </div>
+      </div>
+      
+      <!-- Card 3-->
+      <div class="flex-none w-52 cursor-pointer group">
+        <div class="relative h-[300px] rounded-xl overflow-hidden flex flex-col justify-between p-4 bg-gradient-to-b from-red-800 to-rose-400 shadow-lg">
+          <div class="flex justify-between items-start z-10">
+            <span class="text-[10px] font-inter font-bold tracking-wider text-white/90 uppercase">Sci-Fi • Drama</span> 
+          </div>
+          <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <h3 class="text-xl font-bebas font-black leading-tight z-10 uppercase">Vesper Quiet<br />Letterbound</h3>
+        </div>
+      </div>
+
+      <!-- Card 4-->
+      <div class="flex-none w-52 cursor-pointer group">
+        <div class="relative h-[300px] rounded-xl overflow-hidden flex flex-col justify-between p-4 bg-gradient-to-b from-amber-700 to-yellow-500 shadow-lg">
+          <div class="flex justify-between items-start z-10">
+            <span class="text-[10px] font-inter font-bold tracking-wider text-white/90 uppercase">Sci-Fi • Drama</span> 
+          </div>
+          <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <h3 class="text-xl font-bebas font-black leading-tight z-10 uppercase">Nepele<br />Drift</h3>
+        </div>
+      </div>
+
+      <!-- Card 5-->
+      <div class="flex-none w-52 cursor-pointer group">
+        <div class="relative h-[300px] rounded-xl overflow-hidden flex flex-col justify-between p-4 bg-gradient-to-b from-slate-700 to-cyan-600 shadow-lg">
+          <div class="flex justify-between items-start z-10">
+            <span class="text-[10px]  font-inter font-bold tracking-wider text-white/90 uppercase">Sci-Fi • Drama</span> 
+          </div>
+          <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <h3 class="text-xl font-bebas font-black leading-tight z-10 uppercase">Naruto<br />Shippuden</h3>
+        </div>
+      </div>
+
+      <!-- Card 6-->
+      <div class="flex-none w-52 cursor-pointer group">
+        <div class="relative h-[300px] font-inter rounded-xl overflow-hidden flex flex-col justify-between p-4 bg-gradient-to-b from-slate-700 to-slate-500 shadow-lg">
+          <div class="flex justify-between items-start z-10">
+            <span class="text-[10px] font-bold tracking-wider text-white/90 uppercase">Sci-Fi • Drama</span> 
+          </div>
+          <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <h3 class="text-xl font-bebas font-black leading-tight z-10 uppercase">Komar<br />Asam</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+  <!-- akhir trending -->
+
+
+  </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
